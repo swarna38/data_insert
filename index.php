@@ -93,8 +93,8 @@
                     <td><?php echo $data['email'] ?></td>
                     <td><?php echo $data['number'] ?></td>
                     <td>
-                        <a class=" btn btn-info" href="">edit</a>
-                        <a class=" btn btn-danger" href="">delete</a>
+                        <a class=" btn btn-info" href="edit.php?id=<?php echo $data['id'] ?>">edit</a>
+                        <a class=" btn btn-danger" href="delete.php?id=<?php echo $data['id'] ?>">delete</a>
                     </td>
                     </tr>
                     <?php
